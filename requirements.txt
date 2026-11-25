@@ -1,0 +1,5 @@
+jsonschema==4.26.0
+Pillow==13.0.0
+pytest==9.2.0
+python-dotenv==1.2.4
+requests==2.34.2

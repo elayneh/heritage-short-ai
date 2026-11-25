@@ -1,0 +1,253 @@
+{
+  "title": "ትግል ለ30",
+  "logline": "A passenger rides an aging minibus taxi from Bulbula to Bole and watches its driver fight the machine, not the passengers, to earn thirty birr.",
+  "aspect_ratio": "9:16",
+  "fps": 30,
+  "total_duration_seconds": 88,
+  "characters": {
+    "CH_DRIVER": {
+      "name": "The Driver",
+      "description": "Ethiopian man in his early 40s, lean build, short cropped hair, thin moustache, calm tired eyes, faded blue work shirt with rolled sleeves, dark trousers, worn brown sandals."
+    },
+    "CH_NARRATOR": {
+      "name": "The Narrator",
+      "description": "Ethiopian man in his late 20s, slim, short afro, grey hoodie, dark jeans, canvas shoulder bag, quiet observing presence."
+    },
+    "CH_PASSENGER_1": {
+      "name": "First Passenger",
+      "description": "Ethiopian woman in her 30s, patterned headscarf, brown coat, small black handbag, neutral expression."
+    },
+    "CH_YOUNG_MAN": {
+      "name": "Young Passenger",
+      "description": "Ethiopian man in his early 20s, tall and thin, curly hair, navy jacket, white sneakers, friendly but reserved."
+    }
+  },
+  "vehicles": {
+    "VH_TAXI": {
+      "name": "Aging Minibus Taxi",
+      "description": "1990s white and faded blue Toyota HiAce minibus, chipped paint, rust spots on the wheel arches, cracked grey dashboard, worn vinyl seats, missing left side mirror, manual window cranks, route sticker reading ቡልቡላ - ቦሌ."
+    }
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "duration_seconds": 6,
+      "scene_description": "Early morning at a dusty roadside stop in Bulbula, Addis Ababa. The aging minibus waits with its engine off. The driver stands by the open sliding door and looks down the road. The narrator waits nearby with a canvas bag.",
+      "narrative_purpose": "Establishes place, time and the two central figures. Shows the taxi as an ordinary working vehicle before its faults appear.",
+      "image_prompt": "Vertical 9:16 cinematic social realism. Early morning at a dusty roadside stop in Bulbula, Addis Ababa. A 1990s white and faded blue Toyota HiAce minibus waits at the curb, chipped paint and light rust on the wheel arches. The driver, an Ethiopian man in his early 40s with short cropped hair, a thin moustache and a faded blue work shirt, stands by the open sliding door and looks down the road. The narrator, an Ethiopian man in his late 20s in a grey hoodie with a canvas shoulder bag, waits nearby. Faded blue, weathered white and dusty earth tones. Natural low morning sun, observational documentary framing, shallow depth of field, realistic skin and fabric textures, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, deformed vehicle, modern luxury car, oversaturated colors, cartoon, illustration, exaggerated poverty, dramatic tears, cinematic haze, lens flare",
+      "motion_prompt": "Static wide shot. The driver shifts his weight and glances down the road. Dust drifts in the morning light. The minibus sits still. Subtle handheld breathing, no cuts, no camera moves.",
+      "character_refs": ["CH_DRIVER", "CH_NARRATOR"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "ቡልቡላ ላይ ጠዋት ስድስት ሰዓት ነበር። ወደ ቦሌ የሚሄድ ታክሲ ጠበቅኩ።",
+      "subtitle_en": "It was six in the morning in Bulbula. I waited for a taxi going to Bole.",
+      "music_cue": "Low krar-like drone, distant city hum, sparse percussion.",
+      "sfx_cues": ["distant traffic", "light wind", "idling engine", "footsteps on gravel"],
+      "camera": {
+        "framing": "wide establishing, eye level, 9:16",
+        "movement": "static with subtle handheld drift"
+      },
+      "seed": 41001
+    },
+    {
+      "id": "S02",
+      "duration_seconds": 7,
+      "scene_description": "Close view of the worn dashboard and manual controls from the front cabin. The narrator sits in the middle of the front bench, between the driver and another passenger. The driver's hands rest on the steering wheel. Dust hangs in the morning light.",
+      "narrative_purpose": "Introduces the taxi as a secondary character. Establishes the mechanical wear that will drive the conflict.",
+      "image_prompt": "Vertical 9:16 close-up inside the front cabin of an aging minibus taxi. Cracked grey dashboard, worn manual controls, a loose gear knob, a small hanging plastic charm and a taped route sticker reading ቡልቡላ - ቦሌ. The driver's weathered hands rest on a thin steering wheel. Morning light enters through the windshield and catches dust in the air. Faded blue and weathered white palette, cinematic social realism, shallow depth of field, macro texture detail, fictional faces if visible.",
+      "negative_prompt": "recognizable real person, brand logo, watermark, caption text, distorted hands, extra fingers, clean new dashboard, modern digital display, oversaturated colors, cartoon, illustration, exaggerated poverty, lens flare",
+      "motion_prompt": "Slow push in on the dashboard and the driver's hands. His thumb taps the wheel once. Dust motes drift through the light. The camera settles, no cuts.",
+      "character_refs": ["CH_DRIVER"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "የፊት ወንበር ላይ ተቀመጥኩ። ዳሽቦርዱ ያረጀ ነበር፤ መቆጣጠሪያዎቹም አስቸጋሪ ነበሩ።",
+      "subtitle_en": "I sat in the front seat. The dashboard was worn, and the controls were difficult.",
+      "music_cue": "Soft mechanical pulse, low drone, intimate.",
+      "sfx_cues": ["engine idle", "plastic rattle", "distant street ambience"],
+      "camera": {
+        "framing": "close-up on hands and dashboard, 9:16",
+        "movement": "slow push in"
+      },
+      "seed": 41002
+    },
+    {
+      "id": "S03",
+      "duration_seconds": 7,
+      "scene_description": "The first passenger, a woman in a patterned headscarf, hands the driver a ten birr note and a five birr note before stepping out early. The driver glances at the money with a tight jaw.",
+      "narrative_purpose": "Shows the fare gap that frames the driver's income pressure without making the passenger a villain.",
+      "image_prompt": "Vertical 9:16 medium shot inside a moving minibus taxi. The first passenger, an Ethiopian woman in her 30s with a patterned headscarf and a brown coat, hands a ten birr note and a five birr note to the driver. The driver, an Ethiopian man in his early 40s in a faded blue work shirt, glances at the money with a tight jaw while keeping his eyes on the road. The narrator in a grey hoodie watches from the front cabin. Worn vinyl seats, faded blue interior, natural morning light, cinematic social realism, observational framing, restrained emotion, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, deformed banknotes, modern luxury interior, oversaturated colors, cartoon, illustration, exaggerated anger, exaggerated poverty",
+      "motion_prompt": "Handheld medium shot. The passenger passes the notes. The driver looks down once, then back at the road. The narrator's eyes move between them. No cuts, restrained motion.",
+      "character_refs": ["CH_PASSENGER_1", "CH_DRIVER", "CH_NARRATOR"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "የመጀመሪያው ተሳፋሪ ከመድረሻው በፊት ወረደች። ሰላሳ ብር ሲጠበቅ አስራ አምስት ብር ከፈለች።",
+      "subtitle_en": "The first passenger got off before the stop. She paid fifteen birr when thirty was expected.",
+      "music_cue": "Drone continues, slight tension in the strings.",
+      "sfx_cues": ["paper rustle", "engine hum", "door slide", "street ambience"],
+      "camera": {
+        "framing": "medium shot from the front cabin, 9:16",
+        "movement": "handheld with slight drift"
+      },
+      "seed": 41003
+    },
+    {
+      "id": "S04",
+      "duration_seconds": 6,
+      "scene_description": "The driver leans out and calls for passengers going to Bole. A young man in a navy jacket walks to the open door and takes the empty seat.",
+      "narrative_purpose": "Moves the story forward and brings in the second passenger who will help push the taxi.",
+      "image_prompt": "Vertical 9:16 medium wide shot at a dusty roadside stop in Addis Ababa. The driver leans out of the minibus window and calls toward the street, one hand cupped near his mouth. A young man in his early 20s in a navy jacket and white sneakers walks toward the open sliding door. The narrator in a grey hoodie sits in the front cabin. Faded blue and weathered white minibus, dusty street, natural morning light, observational documentary style, cinematic social realism, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, deformed vehicle, modern luxury car, oversaturated colors, cartoon, illustration, exaggerated poverty",
+      "motion_prompt": "The driver calls out. The young man walks into frame and steps through the open door. The narrator turns his head slightly. Handheld, no cuts.",
+      "character_refs": ["CH_DRIVER", "CH_YOUNG_MAN", "CH_NARRATOR"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "ሹፌሩ ወደ ቦሌ ሰላሳ ብር የሚከፍሉ ተሳፋሪዎችን ጠራ። አንድ ወጣት ቦታውን ያዘ።",
+      "subtitle_en": "The driver called for passengers going to Bole for thirty birr. A young man took the seat.",
+      "music_cue": "Light percussion enters, hopeful movement.",
+      "sfx_cues": ["passenger calls", "footsteps", "door slide", "street ambience"],
+      "camera": {
+        "framing": "medium wide from the curb, 9:16",
+        "movement": "handheld follow, no cuts"
+      },
+      "seed": 41004
+    },
+    {
+      "id": "S05",
+      "duration_seconds": 10,
+      "scene_description": "The engine fails again and again. The driver turns the key repeatedly. The dashboard lights flicker and die. The young passenger watches from the back.",
+      "narrative_purpose": "Turns the taxi into an active obstacle and shows the driver's patience under mechanical failure.",
+      "image_prompt": "Vertical 9:16 interior shot from the front cabin of an aging minibus taxi. The driver, an Ethiopian man in his early 40s in a faded blue work shirt, turns the ignition key again and again. The dashboard lights flicker weakly, the steering wheel shakes, the engine shudders and dies. Sweat on his temple, jaw tight. The young passenger in a navy jacket watches from the back. Worn controls, faded blue interior, natural morning light, cinematic social realism, tight framing on hands and face, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, clean new dashboard, modern car interior, oversaturated colors, cartoon, illustration, exaggerated anger, exaggerated poverty",
+      "motion_prompt": "Tight handheld shot. The key turns, the dashboard flickers, the wheel shakes, the engine dies. The driver exhales and tries again. The young passenger watches. No cuts.",
+      "character_refs": ["CH_DRIVER", "CH_YOUNG_MAN"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "ሞተሩ ተደጋግሞ ጠፋ። ሹፌሩ ቁልፉን ደጋግሞ አዞረ፤ ግን ምንም አልሆነም።",
+      "subtitle_en": "The engine stalled again and again. The driver turned the key repeatedly, but nothing happened.",
+      "music_cue": "Low pulse, engine-like rhythm, restrained tension.",
+      "sfx_cues": ["ignition crank", "engine shudder", "dashboard rattle", "heavy breath"],
+      "camera": {
+        "framing": "tight interior, hands and face, 9:16",
+        "movement": "handheld, slight shake with the engine"
+      },
+      "seed": 41005
+    },
+    {
+      "id": "S06",
+      "duration_seconds": 10,
+      "scene_description": "The driver gets out and pushes the minibus from behind, one hand reaching through the open window to hold the steering wheel. His shirt darkens with sweat.",
+      "narrative_purpose": "The physical and mechanical struggle reaches its peak. Shows effort and dignity rather than pity.",
+      "image_prompt": "Vertical 9:16 exterior side shot on a quiet Addis Ababa street. The driver, an Ethiopian man in his early 40s in a faded blue work shirt and dark trousers, pushes the aging minibus from behind with his shoulder. One hand reaches through the open window to hold the steering wheel. His shirt is damp with effort, sandals gripping the asphalt. The taxi rolls slowly forward, faded blue paint and rust spots. Morning light, dusty road, cinematic social realism, dignified physical effort, no exaggeration, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, deformed vehicle, modern luxury car, oversaturated colors, cartoon, illustration, exaggerated poverty, dramatic fall",
+      "motion_prompt": "Handheld side tracking shot. The driver leans into the taxi and pushes. The vehicle rolls slowly. His free hand steers through the window. Dust rises from the tires. No cuts.",
+      "character_refs": ["CH_DRIVER"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "ከታክሲው ወርዶ በአንድ እጁ መሪውን ይዞ መግፋት ጀመረ።",
+      "subtitle_en": "He got out, held the steering wheel with one hand, and started to push.",
+      "music_cue": "Percussion builds with physical effort, no melodrama.",
+      "sfx_cues": ["footsteps on asphalt", "tire roll", "heavy breathing", "metal rattle"],
+      "camera": {
+        "framing": "side tracking medium wide, 9:16",
+        "movement": "handheld lateral track"
+      },
+      "seed": 41006
+    },
+    {
+      "id": "S07",
+      "duration_seconds": 9,
+      "scene_description": "The young passenger steps out and pushes beside the driver. The engine catches. A small puff of exhaust. The driver shows quiet relief.",
+      "narrative_purpose": "Shows solidarity without sentimentality and releases the physical tension of the push.",
+      "image_prompt": "Vertical 9:16 exterior shot behind an aging minibus taxi. The driver and the young passenger in a navy jacket push side by side, both leaning into the vehicle. The driver reaches through the open window to the steering wheel. A puff of exhaust, then the engine catches. The driver's face shows quiet relief. Dusty street, faded blue minibus with rust spots, morning light, cinematic social realism, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, deformed vehicle, modern luxury car, oversaturated colors, cartoon, illustration, exaggerated celebration, exaggerated poverty",
+      "motion_prompt": "Handheld shot behind the taxi. The young man joins the push. The engine catches with a puff of exhaust. Both men pause and breathe. No cuts.",
+      "character_refs": ["CH_DRIVER", "CH_YOUNG_MAN"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "ወጣቱ ተሳፋሪም ረዳው። በመጨረሻ ሞተሩ ተነሳ።",
+      "subtitle_en": "The young passenger helped him. At last, the engine started.",
+      "music_cue": "Warm krar phrase, release of tension.",
+      "sfx_cues": ["engine catch", "exhaust puff", "footsteps", "street ambience"],
+      "camera": {
+        "framing": "medium wide behind the taxi, 9:16",
+        "movement": "handheld, slight push in"
+      },
+      "seed": 41007
+    },
+    {
+      "id": "S08",
+      "duration_seconds": 12,
+      "scene_description": "Inside the moving taxi, the driver turns his head sharply to check traffic because the left side mirror is missing. He works a stiff window crank and a loose gear lever.",
+      "narrative_purpose": "Shows the ongoing mechanical cost of every trip after the engine starts. The taxi remains a character.",
+      "image_prompt": "Vertical 9:16 interior shot from the front cabin of a moving minibus taxi. The driver turns his head sharply to check traffic because the left side mirror is missing, the mounting holes visible on the door frame. He works a stiff manual window crank and a loose gear lever, brow furrowed. The narrator in a grey hoodie watches from the middle of the front bench. Worn dashboard, faded blue interior, natural morning light, cinematic social realism, close attention to mechanical detail, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, side mirror present, modern car interior, oversaturated colors, cartoon, illustration, exaggerated poverty",
+      "motion_prompt": "Handheld interior shot. The driver turns his head to the left, works the window crank, then shifts the loose gear lever. The narrator follows his movements with his eyes. No cuts.",
+      "character_refs": ["CH_DRIVER", "CH_NARRATOR"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "ታክሲው የጎን መስተዋት አልነበረውም። ሹፌሩ ትራፊክን ለማየት ራሱን ያዞር ነበር።",
+      "subtitle_en": "The taxi had no side mirror. The driver had to turn his head to check traffic.",
+      "music_cue": "Uneasy rhythmic ticking, low drone.",
+      "sfx_cues": ["window crank", "gear shift", "engine hum", "traffic outside"],
+      "camera": {
+        "framing": "medium close-up from the middle of the front bench, 9:16",
+        "movement": "handheld, subtle drift"
+      },
+      "seed": 41008
+    },
+    {
+      "id": "S09",
+      "duration_seconds": 7,
+      "scene_description": "The young passenger stands at the open door, hands over a twenty birr note, and steps out early. The driver looks at the note, then at the departing passenger.",
+      "narrative_purpose": "Completes the fare pattern and shows the driver's restrained reaction. The story avoids blaming the passenger.",
+      "image_prompt": "Vertical 9:16 medium shot inside an aging minibus taxi. The young passenger in a navy jacket stands at the open sliding door and hands a twenty birr note to the driver. The driver, in a faded blue work shirt, looks at the note, then at the departing passenger, mouth tight. The narrator in a grey hoodie watches from the front cabin. Worn vinyl seats, faded blue interior, morning light, cinematic social realism, restrained conflict, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, deformed banknotes, modern luxury interior, oversaturated colors, cartoon, illustration, exaggerated anger, exaggerated poverty",
+      "motion_prompt": "Handheld medium shot. The young man holds out the note. The driver takes it and looks up as the passenger steps out. The narrator watches. No cuts.",
+      "character_refs": ["CH_YOUNG_MAN", "CH_DRIVER", "CH_NARRATOR"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "ወጣቱ ተሳፋሪም ከመድረሻው በፊት ወረደ። ሃያ ብር ከፍሎ ቀሪውን አልሰጠም።",
+      "subtitle_en": "The young passenger also got off before the stop. He paid twenty birr and did not pay the rest.",
+      "music_cue": "Drone returns, muted tension, no climax.",
+      "sfx_cues": ["paper rustle", "door slide", "footsteps", "engine idle"],
+      "camera": {
+        "framing": "medium shot from the front cabin, 9:16",
+        "movement": "handheld, slight drift"
+      },
+      "seed": 41009
+    },
+    {
+      "id": "S10",
+      "duration_seconds": 11,
+      "scene_description": "The taxi stops at Bole. The narrator steps out and looks back. Through the window, the driver turns the taxi around for the next trip, tired but upright.",
+      "narrative_purpose": "Closes the journey and shifts the point of view back to the driver. Sets up the final line.",
+      "image_prompt": "Vertical 9:16 wide shot at Bole, Addis Ababa. The aging minibus stops at a busy roadside. The narrator in a grey hoodie steps out with a canvas bag and looks back. Through the window, the driver turns the taxi around for the next trip, tired but upright. Modern buildings and morning traffic in the background, faded blue minibus, dusty earth tones, cinematic social realism, quiet reflective mood, fictional faces.",
+      "negative_prompt": "recognizable real person, celebrity likeness, brand logo, watermark, caption text, distorted hands, extra fingers, deformed vehicle, modern luxury car, oversaturated colors, cartoon, illustration, exaggerated poverty, dramatic sunset",
+      "motion_prompt": "The narrator steps out and turns back toward the taxi. The driver swings the vehicle around in the background. Traffic moves slowly. Handheld wide shot, no cuts.",
+      "character_refs": ["CH_NARRATOR", "CH_DRIVER"],
+      "vehicle_refs": ["VH_TAXI"],
+      "narration_am": "በመጨረሻ ቦሌ ደረስኩ። ታክሲው ዞረ፤ ሹፌሩ ወደ ቀጣዩ ጉዞ ተመለሰ።",
+      "subtitle_en": "At last I reached Bole. The taxi turned around, and the driver went back for the next trip.",
+      "music_cue": "Warm resolving krar phrase, quiet reflection.",
+      "sfx_cues": ["traffic", "door slide", "footsteps", "engine pull away"],
+      "camera": {
+        "framing": "wide from the curb, 9:16",
+        "movement": "static with subtle handheld drift"
+      },
+      "seed": 41010
+    },
+    {
+      "id": "S11",
+      "duration_seconds": 3,
+      "scene_description": "End card on a plain black background with the Amharic title, the English title, the closing line and a visible AI disclosure.",
+      "narrative_purpose": "Delivers the closing line and makes the synthetic nature of the film explicit.",
+      "image_prompt": "Vertical 9:16 end card on a plain black background. Centered Amharic title ትግል ለ30 above the English title The Struggle for 30. Below, the line My journey ended. His struggle continued. A small clear line at the bottom reads AI-generated film. Characters and appearances are fictional. Minimal white typography, no imagery, no logos.",
+      "negative_prompt": "recognizable real person, brand logo, watermark, photograph, texture, gradient, decorative border, oversaturated colors, cartoon, illustration",
+      "motion_prompt": "Static end card. No camera movement. Text holds for three seconds.",
+      "character_refs": [],
+      "vehicle_refs": [],
+      "narration_am": "የእኔ ጉዞ አበቃ። የእሱ ትግል ግን ቀጥሏል።",
+      "subtitle_en": "My journey ended. His struggle continued.",
+      "music_cue": "Single sustained krar note, fade to silence.",
+      "sfx_cues": ["room tone", "distant city hum"],
+      "camera": {
+        "framing": "full-frame title card, 9:16",
+        "movement": "static"
+      },
+      "seed": 41011
+    }
+  ]
+}
